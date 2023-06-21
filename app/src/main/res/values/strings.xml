@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Activity_lifecycle</string>
+    <string name="new_app_name">Avengers</string>
+    <string name="hello_sugam">Hello Sugam</string>
+    <string name="hello_sugam1">Hello Sugam</string>
+    <string name="andriod_is_fun">Andriod is fun</string>
+    <string name="kotlin_is_fun">Kotlin is fun</string>
+    <string name="click_here">Click Here</string>
+    <string name="enter_your_name_here">Enter Your Name here</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up_for_facebook">Sign Up For Facebook</string>
+    <string name="log_in">LOG IN</string>
+    <string name="with_your_google_account">with your Google Account</string>
+    <string name="forget_email">Forget email?</string>
+    <string name="create_account">Create account</string>
+    <string name="next">Next</string>
+    <string name="sign_in">Sign In</string>
+    <string name="google_logo">google logo</string>
+    <string name="captionamerica_gmail_com">captionamerica@gmail.com</string>
+    <string name="caption_america">Caption America</string>
+    <string name="tony">Tony</string>
+    <string name="thor">Thor</string>
+    <string name="widow">Widow</string>
+    <string name="tony24_gmail_com">tony24@gmail.com</string>
+    <string name="enter_your_password">Enter Password</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="preference_file_name">Avengers Preferences</string>
+</resources>

@@ -42,19 +42,22 @@ class LoginActivity : AppCompatActivity() {
         val isLoggedIn=sharedPreferences.getBoolean("isLoggedIn",false)
 
         if(isLoggedIn){
+            println("2")
             //intent object
-            val intent=Intent(this@LoginActivity,MainActivity::class.java)
+            val intent=Intent(this@LoginActivity,AvengersActivity::class.java)
             startActivity(intent)
+            finish()
         }
-//        else{
-//            setContentView(R.layout.activity_login)
-//        }
+
+
+
 
         btnLogin.setOnClickListener {
+            println("3")
             val intMobileNumber = etMobileNumber.text.toString()
             val intPassword = etPassword.text.toString()
-            var nameOfAvenger: String
-            val intent=Intent(this@LoginActivity,MainActivity::class.java)
+            val nameOfAvenger: String
+            val intent=Intent(this@LoginActivity,AvengersActivity::class.java)
             if (validMobileNumber == intMobileNumber) {
 
                 if (intPassword == validPassword[0]) {
@@ -97,6 +100,7 @@ class LoginActivity : AppCompatActivity() {
     fun savedPreferences(tile:String){
         sharedPreferences.edit().putBoolean("isLoggedIn",true).apply()
         sharedPreferences.edit().putString("Title",tile).apply()
+
     }
 
 }
